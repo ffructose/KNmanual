@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "font1";
+    src: url(../../KNmanual/font/DischargePro.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "font2";
+    src: url(../../KNmanual/font/Halogen_0.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Header styles start */
+
+.header {
+    background: url(../img/head.jpg) center;
+    width: 100vw;
+    height: 100px;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.icon-block-1 {
+    grid-area: 1/1/2/2;
+}
+
+.icon-block-2 {
+    grid-area: 1/3/2/4;
+}
+
+.header-text {
+    grid-area: 1/2/2/3;
+
+}
+
+.header-icon {
+    width: 100px;
+    height: auto;
+}
+
+.header-text {
+    font-family: font1;
+    font-size: 60px;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+
+}
+
+
+/* Header styles end */

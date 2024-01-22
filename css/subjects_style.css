@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "font1";
+    src: url(../../KNmanual/font/DischargePro.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "font2";
+    src: url(../../KNmanual/font/Halogen_0.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.sub-block {}
+
+.sub-name {}
+
+.sub-text {
+    display: none;
+}
+
+
+.sub-name:hover > .sub-text {
+    display: unset;
+}
